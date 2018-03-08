@@ -6,7 +6,6 @@ p1Button.addEventListener("click", function(){
     alert("I was clicked!");
 });
 
-p2Button.addEventListener("click", function(){
-    // for testing purposes. 
-    alert("I was clicked!");
+p2button.addEventListener("click", function(){
+    alert("I was clicked");
 });

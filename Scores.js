@@ -1,2 +1,2 @@
-// To see if the js is connected properly. 
-alert("I HAVE THE POWER!");
+var p1Button = document.querySelector("#p1");
+var p2Button = document.querySelector("#p2");

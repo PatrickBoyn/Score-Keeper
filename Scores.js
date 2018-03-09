@@ -40,7 +40,9 @@ p2Button.addEventListener("click", function(){
     }
 });
 
+// 
 reset.addEventListener("click", function(){
+    // Resets the score back to 0.
     p1Display.textContent = 0;
     p2Display.textContent = 0;
 });

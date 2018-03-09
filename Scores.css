@@ -3,6 +3,8 @@ body{
 }
 button{
     border:none;
+    background-color:rgb(5, 116, 116);
+    color:white;
 }
 #title{
     border:5px solid grey;

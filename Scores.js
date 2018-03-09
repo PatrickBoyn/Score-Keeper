@@ -1,5 +1,5 @@
-var p1Button = document.querySelector("#p1");
-var p2Button = document.querySelector("#p2");
+var p1Button = document.getElementById("p1");
+var p2Button = document.getElementById("p2");
 var p1Display = document.getElementById("p1Display");
 var p2Display = document.getElementById("p2Display");
 var p1Score = 0;
@@ -11,9 +11,8 @@ p1Button.addEventListener("click", function(){
     console.log(p1Score);
 });
 
-var test = p2Button.addEventListener("click", function(){
+p2Button.addEventListener("click", function(){
     p2Score++;
     console.log(p2Score);
 });
 
-console.log(test);

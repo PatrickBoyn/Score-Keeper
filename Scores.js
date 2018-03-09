@@ -1,6 +1,7 @@
 // Selectors
 var p1Button = document.getElementById("p1");
 var p2Button = document.getElementById("p2");
+var reset = document.getElementById("reset");
 var p1Display = document.getElementById("p1Display");
 var p2Display = document.getElementById("p2Display");
 
@@ -37,4 +38,9 @@ p2Button.addEventListener("click", function(){
         gameOver = true;
         console.log("Game Over!");
     }
+});
+
+reset.addEventListener("click", function(){
+    p1Display.textContent = 0;
+    p2Display.textContent = 0;
 });

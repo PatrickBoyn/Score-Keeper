@@ -1,9 +1,13 @@
+body{
+    text-align:center;
+}
+
 .winner{
     color:green;
 }
-#title{
+/* #title{
     text-align:center;
 }
 div{
     text-align:center;
-}
+} */

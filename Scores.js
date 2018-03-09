@@ -11,8 +11,9 @@ p1Button.addEventListener("click", function(){
     console.log(p1Score);
 });
 
-p2Button.addEventListener("click", function(){
+var test = p2Button.addEventListener("click", function(){
     p2Score++;
     console.log(p2Score);
 });
 
+console.log(test);

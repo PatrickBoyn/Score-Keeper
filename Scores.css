@@ -1,7 +1,25 @@
 body{
     text-align:center;
 }
+button{
+    border:none;
+}
 #title{
+    border:5px solid grey;
+    background:blue;
+    color:white;
+}
+#p1Display{
+    border:5px solid grey;
+    background:blue;
+    color:white;
+}
+#p2Display{
+    border:5px solid grey;
+    background:blue;
+    color:white;
+}
+#end{
     border:5px solid grey;
     background:blue;
     color:white;

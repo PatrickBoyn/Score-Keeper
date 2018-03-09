@@ -24,6 +24,11 @@ button{
     background:blue;
     color:white;
 }
+#action{
+    border:5px solid grey;
+    background:blue;
+    color:white;
+}
 .winner{
     color:green;
 }

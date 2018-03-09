@@ -14,6 +14,7 @@ var gameOver = false;
 
 // Makes the score go up when the button is pressed
 p1Button.addEventListener("click", function(){
+    // If game over is reached stop the increment. 
     if(!gameOver){
         p1Score++;
         if(p1Score === winningScore){

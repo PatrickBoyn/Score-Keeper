@@ -1,7 +1,11 @@
 body{
     text-align:center;
 }
-
+#title{
+    border:5px solid grey;
+    background:blue;
+    color:white;
+}
 .winner{
     color:green;
 }

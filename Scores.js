@@ -6,5 +6,6 @@ var p1Score = 0;
 
 p1Button.addEventListener("click", function(){
     p1Score++;
+    h1.textContent = p1Score;
     console.log(p1Score);
 });

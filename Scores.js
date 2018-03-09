@@ -26,7 +26,12 @@ p1Button.addEventListener("click", function(){
 });
 
 p2Button.addEventListener("click", function(){
-    p2Score++;
-    p2Display.textContent = p2Score;
-    console.log(p2Score);
+    if(!gameOver){
+        p2Score++;
+        p2Display.textContent = p2Score;
+        console.log(p2Score);
+    }if(p2Score === winningScore){
+        gameOver = true;
+        console.log("Game Over!");
+    }
 });

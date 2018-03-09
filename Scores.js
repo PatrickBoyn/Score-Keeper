@@ -40,7 +40,6 @@ p2Button.addEventListener("click", function(){
     }
 });
 
-
 reset.addEventListener("click", function(){
     // Resets the score back to 0.
     p1Score = 0;

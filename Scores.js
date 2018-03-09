@@ -4,7 +4,7 @@ var p1Display = document.getElementById("p1Display");
 var p2Display = document.getElementById("p2Display");
 var p1Score = 0;
 var p2Score = 0;
-console.log(typeof(p2Button));
+
 p1Button.addEventListener("click", function(){
     p1Score++;
     p1Display.textContent = p1Score;

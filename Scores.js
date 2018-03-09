@@ -8,6 +8,9 @@ var p2Display = document.getElementById("p2Display");
 var p1Score = 0;
 var p2Score = 0;
 
+// Checks the state of the game
+var gameOver = false;
+
 // Makes the score go up when the button is pressed
 p1Button.addEventListener("click", function(){
     p1Score++;

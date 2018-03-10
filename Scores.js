@@ -19,6 +19,7 @@ p1Button.addEventListener("click", function(){
     if(!gameOver){
         p1Score++;
         if(p1Score === winningScore){
+            // The winner class is supposed to change the text green of whoever wins.
             p1Display.classList.add("winner");
             gameOver = true;
             console.log("Game Over!");

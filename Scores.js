@@ -10,7 +10,7 @@ var input =  document.querySelector("input");
 // Counters
 var p1Score = 0;
 var p2Score = 0;
-var winningScore = 7;
+var winningScore;
 
 // Checks the state of the game
 var gameOver = false;
@@ -49,7 +49,8 @@ p2Button.addEventListener("click", function(){
 });
 
 input.addEventListener("change", function(){
-    end.textContent = "I was changed!";
+    end.textContent = input.value;
+    winningScore = Number(input.value);
 });
 
 reset.addEventListener("click", function(){

@@ -10,7 +10,7 @@ var input =  document.querySelector("input");
 // Counters
 var p1Score = 0;
 var p2Score = 0;
-var winningScore;
+var winningScore = 7;
 
 // Checks the state of the game
 var gameOver = false;
@@ -51,9 +51,15 @@ p2Button.addEventListener("click", function(){
 input.addEventListener("change", function(){
     end.textContent = input.value;
     winningScore = Number(input.value);
+    reset()
 });
 
 reset.addEventListener("click", function(){
+    reset()
+});
+
+function reset(){
+    reset.addEventListener("click", function(){
     // Resets the score back to 0.
     p1Score = 0;
     p1Display.classList.remove("winner");
@@ -64,4 +70,5 @@ reset.addEventListener("click", function(){
     p2Display.id = "p2Display";
     p2Display.textContent = 0;
     gameOver = false;
-});
+    });
+}

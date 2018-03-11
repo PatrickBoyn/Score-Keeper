@@ -41,7 +41,8 @@ p2Button.addEventListener("click", function(){
         p2Display.removeAttribute("id");
         gameOver = true;
         console.log("Game Over!");
-    }else if(p2Score > winningScore) {
+    }
+    if(p2Score < winningScore){
         p2Display.classList.add("looser");
     }
 });

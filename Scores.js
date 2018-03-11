@@ -42,9 +42,6 @@ p2Button.addEventListener("click", function(){
         gameOver = true;
         console.log("Game Over!");
     }
-    if(p2Score < winningScore){
-        p2Display.classList.add("looser");
-    }
 });
 
 reset.addEventListener("click", function(){

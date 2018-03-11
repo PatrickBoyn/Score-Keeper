@@ -21,6 +21,7 @@ p1Button.addEventListener("click", function(){
         if(p1Score === winningScore){
             // The winner class is supposed to change the text green of whoever wins.
             p1Display.classList.add("winner");
+            p1Display.removeAttribute("id");
             gameOver = true;
             console.log("Game Over!");
         }
@@ -36,6 +37,7 @@ p2Button.addEventListener("click", function(){
         console.log(p2Score);
     }if(p2Score === winningScore){
         p2Display.classList.add("winner");
+        p2Display.removeAttribute("p2Display");
         gameOver = true;
         console.log("Game Over!");
     }
@@ -46,6 +48,7 @@ reset.addEventListener("click", function(){
     p1Score = 0;
     p1Display.classList.remove("winner");
     p1Display.textContent = 0;
+    p1Display.id = "p1Display";
     p2Score = 0;
     p2Display.classList.remove("winner");
     p2Display.textContent = 0;

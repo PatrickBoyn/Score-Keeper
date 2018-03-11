@@ -4,6 +4,7 @@ var p2Button = document.getElementById("p2");
 var reset = document.getElementById("reset");
 var p1Display = document.getElementById("p1Display");
 var p2Display = document.getElementById("p2Display");
+var end = document.getElementById("end");
 
 // Counters
 var p1Score = 0;

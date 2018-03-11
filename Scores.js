@@ -4,6 +4,7 @@ var p2Button = document.getElementById("p2");
 var reset = document.getElementById("reset");
 var p1Display = document.getElementById("p1Display");
 var p2Display = document.getElementById("p2Display");
+var end = document.getElementById("end");
 var input =  document.querySelector("input");
 
 // Counters
@@ -48,7 +49,7 @@ p2Button.addEventListener("click", function(){
 });
 
 input.addEventListener("change", function(){
-    alert("Changed!");
+    end.textContent = "I was changed!";
 });
 
 reset.addEventListener("click", function(){

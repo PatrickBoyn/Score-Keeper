@@ -33,5 +33,7 @@ button{
     color:white;
 }
 .winner{
-    color:green;
+    border:5px solid grey;
+    background:green;
+    color:white;
 }

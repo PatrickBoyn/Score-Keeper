@@ -37,7 +37,7 @@ p2Button.addEventListener("click", function(){
         console.log(p2Score);
     }if(p2Score === winningScore){
         p2Display.classList.add("winner");
-        p2Display.removeAttribute("p2Display");
+        p2Display.removeAttribute("id");
         gameOver = true;
         console.log("Game Over!");
     }

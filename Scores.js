@@ -10,7 +10,7 @@ var input =  document.querySelector("input");
 // Counters
 var p1Score = 0;
 var p2Score = 0;
-var winningScore = 7;
+var winningScore = 3;
 
 // Checks the state of the game
 var gameOver = false;

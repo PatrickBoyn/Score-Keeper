@@ -37,3 +37,8 @@ button{
     background:green;
     color:white;
 }
+.looser{
+    border:5px solid gray;
+    backgorund:red;
+    color:white;
+}

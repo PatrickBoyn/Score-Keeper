@@ -47,9 +47,7 @@ p2Button.addEventListener("click", function(){
 });
 
 end.addEventListener("click", function(){
-    
-
-
+    end2.textContent = end;
 });
 
 reset.addEventListener("click", function(){

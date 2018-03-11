@@ -48,7 +48,7 @@ p2Button.addEventListener("click", function(){
 });
 
 input.addEventListener("click", function(){
-
+    alert("Clicked!");
 });
 
 reset.addEventListener("click", function(){

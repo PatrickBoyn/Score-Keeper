@@ -51,6 +51,7 @@ reset.addEventListener("click", function(){
     p1Display.id = "p1Display";
     p2Score = 0;
     p2Display.classList.remove("winner");
+    p2Display.id = "p2Display";
     p2Display.textContent = 0;
     gameOver = false;
 });

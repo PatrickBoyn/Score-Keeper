@@ -16,29 +16,11 @@ var gameOver = false;
 // Makes the score go up when the button is pressed
 p1Button.addEventListener("click", function(){
     // If game over is reached stop the increment. 
-    if(!gameOver){
-        p1Score++;
-        if(p1Score === winningScore){
-            // The winner class is supposed to change the text green of whoever wins.
-            p1Display.classList.add("winner");
-            gameOver = true;
-            console.log("Game Over!");
-        }
-        p1Display.textContent = p1Score;
-        console.log(p1Score);
-    }
+    logic()
 });
 
 p2Button.addEventListener("click", function(){
-    if(!gameOver){
-        p2Score++;
-        p2Display.textContent = p2Score;
-        console.log(p2Score);
-    }if(p2Score === winningScore){
-        p2Display.classList.add("winner");
-        gameOver = true;
-        console.log("Game Over!");
-    }
+    logic()
 });
 
 reset.addEventListener("click", function(){
@@ -51,3 +33,17 @@ reset.addEventListener("click", function(){
     p2Display.textContent = 0;
     gameOver = false;
 });
+
+function logic(){
+    if(!gameOver){
+        p1Score++;
+        if(p1Score === winningScore){
+            // The winner class is supposed to change the text green of whoever wins.
+            p1Display.classList.add("winner");
+            gameOver = true;
+            console.log("Game Over!");
+        }
+        p1Display.textContent = p1Score;
+        console.log(p1Score);
+    }
+};
